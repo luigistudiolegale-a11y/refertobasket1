@@ -1,0 +1,29 @@
+REFERTO BASKET - progetto per creare l'app Android (APK) e iOS
+
+Questa cartella contiene il progetto dell'app. L'app vera e propria viene
+creata in automatico da GitHub (gratuito), senza installare programmi.
+
+ANDROID - creare il file APK
+1. Crea un account gratuito su github.com.
+2. Crea un nuovo repository (nome a scelta, ad esempio "referto-basket").
+3. Carica nel repository TUTTO il contenuto di questa cartella,
+   compresa la cartella ".github" (in Windows e' visibile normalmente).
+   Il ramo deve chiamarsi "main".
+4. Apri la scheda "Actions" del repository: parte da sola l'operazione
+   "Crea APK Android". Dura alcuni minuti.
+5. A operazione finita (spunta verde), aprila e scarica in fondo alla pagina
+   il file "referto-basket-apk". Dentro c'e' "app-debug.apk".
+6. Invia l'APK al telefono o tablet Android (email, cavo, Drive...),
+   aprilo e consenti l'installazione da questa origine quando richiesto.
+
+iOS (iPhone e iPad)
+Apple non permette di installare un'app da file. Servono:
+- l'iscrizione all'Apple Developer Program (a pagamento, annuale);
+- un Mac con Xcode, oppure un servizio di compilazione in cloud.
+Con questo stesso progetto: "npm install", "npx cap add ios",
+"npx cap open ios", poi si pubblica con TestFlight o App Store.
+
+Contenuto
+- www/            l'app (funziona senza internet, salva i dati sul dispositivo)
+- assets/         icona e schermata di avvio
+- .github/        istruzioni per la creazione automatica dell'APK
